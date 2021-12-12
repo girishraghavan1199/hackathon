@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube clone</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+                </div>
+                <img src="images/logo.png" class="logo.png" alt="">
+                <div class ="searchbox">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button class="search-btn"><img src="images/search.png" alt=""></button>
+                </div>
+                <div class="user-options">
+                    <img src="images/video.png" class="icon" alt="">
+                    <img src="images/grid.png" class="icon" alt="">
+                    <img src="images/bell.png" class="icon" alt="">
+                    <div class="user">
+                        <img src="images/profilepic.png" alt="">
+                        </div>
+
+                </div>
+
+        </nav>
+            <!-- sidebar -->
+            <div class="sidebar">
+                <a href="#" class="links active"><img src="images/home.png" alt="">home</a>
+                <a href="#" class="links"><img src="images/explore.png" alt="">explore</a>
+                <a href="#" class="links"><img src="images/subscription.png" alt="">subscription</a>
+                <hr class="seperator">
+                <a href="#" class="links"><img src="images/library.png" alt="">library</a>
+                <a href="#" class="links"><img src="images/history.png" alt="">history</a>
+                <a href="#" class="links"><img src="images/yourvideo.png" alt="">yourvideo</a>
+                <a href="#" class="links"><img src="images/watchlater.PNG" alt="">watchlater</a>
+                <a href="#" class="links"><img src="images/liked video.png" alt="">liked video</a>
+                <a href="#" class="links"><img src="images/showmore.png" alt="">showmore</a>
+            </div>
+<!-- videos -->
+<div class="filters">
+    <button class="filter-options active">all</button>
+    <button class="filter-options">news</button>
+    <button class="filter-options">movies</button>
+    <button class="filter-options">music</button>
+    <button class="filter-options">entertainment</button>
+    <button class="filter-options">marvel</button>
+    <button class="filter-options">python</button>
+    <button class="filter-options">react.js</button>
+    <button class="filter-options">database</button>
+    <button class="filter-options">trending</button>
+</div>
+<div class="video-container">
+
+</div>
+   <script src =  "https://www.googleapis.com/youtube/v3"></script>        
+    <script src="youtube.js"></script>
+</body>
+</html>
